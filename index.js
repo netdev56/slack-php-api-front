@@ -1,5 +1,7 @@
+// console.log(localStorage.getItem('token'))
+
 if(!localStorage.getItem('token')){
-console.log("hello")
+// console.log("hello")
 
 fetch('https://slack-php-api-token.herokuapp.com')
     .then(response => response.json())
